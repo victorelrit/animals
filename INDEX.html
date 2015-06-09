@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>ANIMALES</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+ <style>
+.capas {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color: #F03;
+	border: medium solid #F09;
+	outline: #F06 solid 20px;
+}
+.TITULO {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+ </style>
+ </head> 
+<body> 
+<div data-role="page" id="page" style="background:url(imags/FONDO.jpg)">
+	<div data-role="header" style="background:#F0C">
+		<h1>HOLA PEQUES!!! BIENVENIDOS :)</h1>
+	</div>
+	<div data-role="content">
+    <div align="center" class="TITULO">ANIMALES</div>
+    <div align="center" data-role="controlgroup" data-type="vertical">
+    <div style="width:20%">
+    <a href="#page2" data-role="button" id="anidom" style="background: #36F">
+    DOMESTICOS
+    </a>
+    <a href="#page3" data-role="button" id="anisal" style="background: #FF9">
+    SALVAJES
+    </a>
+    <input type="button" type="button" value="Cerrar Ventana" onclick="window.close()">
+    </div>
+    </div>
+  </div>	 
+	<div data-role="footer"  style="background:#6F9">
+	  <h4>DAVID NIETO LOPEZ</h4>
+	</div>
+</div>
+<div data-role="page" id="page2" data-add-back-btn="true" style="background:url(imags/FONDO%20DOMESTICOS.jpg)">
+	<div data-role="header" style="background:#0CC">
+		<h1>ANIMALES DOMESTICOS</h1>
+	</div>
+	<div data-role="content">	
+   <center><img src="imags/Gatín...!.jpg" width="242" height="323" class="capas"> <img src="imags/pato.jpg" width="242"   height="323" class="capas"></center><P><CENTER><img src="imags/perro.jpg" width="242" height="323" class="capas"><img src="imags/vaca.jpg" width="242"  height="323" class="capas"></center><P><center> <img src="imags/perico.jpg" width="242" height="323" class="capas"> <img src="imags/gallo.jpg" width="242" height="323" class="capas"></center>
+  </div>
+	<div data-role="footer" style="background:#0F0">
+		<h4>CONCHIZ SANCHEZ</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true" style=" background:url(imags/unnamed.jpg)">
+	<div data-role="header"  style="background:#0cc">
+		<h1>ANIMALES SALVAJES</h1>
+	</div>
+	<div data-role="content">	
+	<center><img src="imags/leon.jpg" width="242" height="323"	 class="capas" ><img src="imags/jaguar.jpg" width="242" height="323" class="capas"></center><P><center> <img src="imags/hiena.jpg" width="242" height="323" class="capas"> <img src="imags/gorila.jpg" width="242" height="323" class="capas" ></center><p><center> <img src="imags/mono.jpg" width="242" height="323"  class="capas"><img src="imags/aguila.jpg" width="242" height="323" class="capas"></center>
+  </div>
+	<div data-role="footer" style="background:#0F0">
+		<h4>CONCHIZ SANCHEZ</h4>
+	</div>
+</div>
+
+</body>
+</html>
